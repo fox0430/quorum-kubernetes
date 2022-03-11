@@ -73,21 +73,6 @@ data:
         "transactionManagerUrl": ""
       },
       {
-        "name": "validator2",
-        "rpcUrl": "http://quorum-validator2.quorum.svc.cluster.local:8545",
-        "transactionManagerUrl": ""
-      },
-      {
-        "name": "validator3",
-        "rpcUrl": "http://quorum-validator3.quorum.svc.cluster.local:8545",
-        "transactionManagerUrl": ""
-      },
-      {
-        "name": "validator4",
-        "rpcUrl": "http://quorum-validator4.quorum.svc.cluster.local:8545",
-        "transactionManagerUrl": ""
-      },
-      {
         "name": "rpcnode",
         "rpcUrl": "http://quorum-rpcnode.quorum.svc.cluster.local:8545",
         "transactionManagerUrl": ""
@@ -96,16 +81,6 @@ data:
         "name": "member1",
         "rpcUrl": "http://quorum-member1.quorum.svc.cluster.local:8545",
         "transactionManagerUrl": "http://quorum-member1.quorum.svc.cluster.local:9080"
-      },
-      {
-        "name": "member2",
-        "rpcUrl": "http://quorum-member2.quorum.svc.cluster.local:8545",
-        "transactionManagerUrl": "http://quorum-member2.quorum.svc.cluster.local:9080"
-      },
-      {
-        "name": "member3",
-        "rpcUrl": "http://quorum-member3.quorum.svc.cluster.local:8545",
-        "transactionManagerUrl": "http://quorum-member3.quorum.svc.cluster.local:9080"
       }
     ]
 

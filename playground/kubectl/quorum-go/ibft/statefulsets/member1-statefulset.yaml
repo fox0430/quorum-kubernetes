@@ -157,12 +157,6 @@ spec:
                     "peer": [
                       {
                           "url": "http://quorum-member1.quorum.svc.cluster.local:9000"
-                      },
-                      {
-                          "url": "http://quorum-member2.quorum.svc.cluster.local:9000"
-                      },
-                      {
-                          "url": "http://quorum-member3.quorum.svc.cluster.local:9000"
                       }
                     ],
                     "keys": {
