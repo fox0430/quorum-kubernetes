@@ -61,6 +61,10 @@ spec:
   template:
     metadata:
       labels:
+        app: {{ template "blockscout.fullname" . }}
+        release: {{ .Release.Name }}
+        component: {{ .Release.Name }}
+        app.kubernetes.io/instance: {{ .Release.Name }}
         app.kubernetes.io/name: blockscout
         app.kubernetes.io/component: statefulset
         app.kubernetes.io/part-of: {{ include "blockscout.fullname" . }}
